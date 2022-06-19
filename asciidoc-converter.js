@@ -4,10 +4,10 @@ const fs = require('fs');
 const path = require('path');
 
 const asciidoctor = Asciidoctor();
-const rootfolder = '.\\src\\app';
+const rootfolder = './src/app';
 const adocext = '.adoc';
 const htmlext = '.html';
-const separator = '\\';
+const separator = '/';
 
 function flatten(lists) {
   return lists.reduce((a, b) => a.concat(b), []);
