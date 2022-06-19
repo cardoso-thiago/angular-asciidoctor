@@ -9,4 +9,8 @@ npm install
 # Execução
 npm start
 
+# Instalando SSR na Aplicação
+ng add @nguniversal/express-engine
 
+# Executando build com prerender
+npm run prerender
